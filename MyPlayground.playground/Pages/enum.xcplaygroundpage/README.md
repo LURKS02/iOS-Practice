@@ -27,3 +27,23 @@ print(grade.third.rawValue = \(grade.third.rawValue)")
 rawValue를 이용하여 내부값을 출력할 수 있다.
 이때 자동으로 1이 증가된 값이 할당된다.
 
+```swift
+enum StudentDetail {
+  case grade(name: String)
+  case age(name: String)
+
+  func get() -> String {
+    switch self {
+      case .grade(let name):
+      return name
+      case .age(let name):
+      return name
+    }
+  }
+}
+
+let myGrade = StudentDetail.grade(name: "A")
+print(myGrade)                        //grade(name: "A")
+print("myGrade : \(myGrade.get())")   //myGrade : A
+```
+각 case에 파라미터를 입력하여 값을 불러올 수 있다.
