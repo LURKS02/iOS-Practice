@@ -3,5 +3,6 @@
     <pages>
         <page name='bool'/>
         <page name='foreach'/>
+        <page name='enum'/>
     </pages>
 </playground>
