@@ -9,5 +9,5 @@ Swift 기본 문법을 공부하기 위한 페이지입니다.
     - For-in/For-each : [For-in과 For-each](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/foreach.xcplaygroundpage)
 3. 개념
     - var : [가변변수 var](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/var)
-    - let : [불변변수 let](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/let)\
+    - let : [불변변수 let](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/let)
     - closure : [Closure](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/Closure)
