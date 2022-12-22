@@ -24,25 +24,34 @@ let hello = {(name: String) -> String in
 hello(name:"kbs")  //전달인자 레이블을 사용하지 않기 때문에 오류
 hello("kbs")       //Hello, kbs
 ```
-- 예시 코드 2
+- 예시 코드 2 : 동일 클로저 코드 표현법
 ```swift
-let sum:(Int, Int) -> Int = {(a:Int, b:Int) in
-  return a + b
+var multiply: (Int, Int) -> Int = {(a: Int, b: Int) -> Int in
+  return a * b
 }
-let sumResult: Int = sum(1, 2)
 
-let add:(Int, Int) -> Int
-add = {(a:Int, b:Int) in
-  return a + b
+//파라미터(매개변수)의 타입 생략
+var multiply2: (Int, Int) -> Int = {(a, b) -> Int in
+  return a * b
 }
+
+//return 키워드 및 파라미터(매개변수) 생략 (shorthand argument 활용)
+var multiply3: (Int, Int) -> Int = {$0 * $1}
 ```
-- 예시 코드 3
+- 예시 코드 3 : 함수가 클로저를 argument로 받는 상황
 ```swift
-func doClosure(closure: () -> ()){
-  closure()
+func operateTwoNum(a: Int, b: Int, operation: (Int, Int) -> Int) -> Int {
+    let result = operation(a,b)
+    return result
 }
 
-doClosure(closure: { () -> () in
-  print("Hello")
-})
+var add: (Int, Int) -> Int = { a,b in
+    return a + b
+}
+
+operateTwoNum(a: 4, b: 9, operation: multiply)  // multyply를 넣으면 곱하기
+operateTwoNum(a: 4, b: 9, operation: add) // add 클로저를 넣어 더하기
+operateTwoNum(a: 4, b: 9 ){ a, b in // 아규먼트 블럭에 클로저를 직접 구현해도 된다.
+    return a - b
+}
 ```
