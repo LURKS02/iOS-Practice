@@ -20,6 +20,27 @@ class Person {
   }
 }
 
-let James = Person(name: "James", grade: 80)
+var James = Person(name: "James", grade: 80)
 James.printPerson()
+```
+class 인스턴스의 값 전달 방식은 메모리 주소 참조에 의한 전달 방식으로 참조 타입(Reference type)이라고 한다.<br>
+인스턴스가 저장된 메모리 주소 정보가 전달되므로 원본 값에 접근하게 된다.
+
+- Class의 참조 타입
+```swift
+var Nick = Person(name: "Nick", grade: 100)
+var Smith: Person = Nick
+Smith.name = "Smith"
+
+print(Nick.name)
+print(Smith.name)
+//참조(reference)에 의한 전달이므로 원본 값이 동시에 변경
+```
+```swift
+func gradeUp(_ person: Person) {
+  person.grade += 10
+}
+gradeUp(James)
+print(James.grade)
+//참조(Reference)에 의한 전달이므로 원본 값이 변경
 ```
