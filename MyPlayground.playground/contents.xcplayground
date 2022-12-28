@@ -4,5 +4,7 @@
         <page name='bool'/>
         <page name='foreach'/>
         <page name='enum'/>
+        <page name='unwrapping'/>
+        <page name='class'/>
     </pages>
 </playground>
