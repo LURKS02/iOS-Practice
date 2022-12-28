@@ -108,5 +108,7 @@ Int와 Int?는 별개의 타입이므로 오류가 발생한다.
 > > 
 > > var tom: Person? = Person(name: "Tom", email: "tomntoms@naver.com", address: "Seoul")
 > > 
-> > tom.contacts.email  //에ㄹ
-> > tom?.contacts.email
+> > tom.contacts.email  // 에러 : tom이 옵셔널 타입이기 때문
+> > tom?.contacts.email  // OK : 만약 tom이 nil이면 전체 값도 nil로 처리
+> > ```
+> > 
