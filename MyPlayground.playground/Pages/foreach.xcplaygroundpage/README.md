@@ -1,46 +1,31 @@
-# Class
+# For-in과 For-each
 
-- Class(클래스)
-객체를 정의하기 위한 도구<br>
-참조 타입(reference)으로, 데이터를 메모리에 올리고 메모리의 위치를 전달한다.<br>
-
-- Class 구문 예시
+- For 반복문
 ```swift
-class Person {
-  var name: String
-  var grade: Int
-  
-  init(name: String, grade: Int) {
-    self.name = name
-    self.grade = grade
-  }
-  
-  func printPerson() {
-    print("My name is \(name) and my grade is \(grade)")
-  }
-}
-
-var James = Person(name: "James", grade: 80)
-James.printPerson()
-```
-class 인스턴스의 값 전달 방식은 메모리 주소 참조에 의한 전달 방식으로 참조 타입(Reference type)이라고 한다.<br>
-인스턴스가 저장된 메모리 주소 정보가 전달되므로 원본 값에 접근하게 된다.
-
-- Class의 참조 타입
-```swift
-var Nick = Person(name: "Nick", grade: 100)
-var Smith: Person = Nick
-Smith.name = "Smith"
-
-print(Nick.name)
-print(Smith.name)
-//참조(reference)에 의한 전달이므로 원본 값이 동시에 변경
+for _ in 0...5  //0부터 5까지(포함)
 ```
 ```swift
-func gradeUp(_ person: Person) {
-  person.grade += 10
+for _ in 0..<5  //0부터 5 전까지(미포함)
+```
+
+
+- For-in : 컬렉션에 저장된 요소 수만큼 반복하며, 저장된 요소가 루프 상수에 하나씩 들어간다.
+```swift
+let nums : [Int] = [1, 2, 3, 4]
+
+for num in nums {
+  print(num)
 }
-gradeUp(James)
-print(James.grade)
-//참조(Reference)에 의한 전달이므로 원본 값이 변경
+//1 2 3 4
+//nums 내부에 있는 num을 차례로 출력한다.
+```
+
+- For-each : 반복 실행하려는 코드를 파라미터로 받고, 저장된 요소는 클로저 상수로 전달된다.
+```swift
+let nums : [Int] = [1, 2, 3, 4]
+
+nums.forEach {
+  print($0)
+}
+//1 2 3 4 
 ```
