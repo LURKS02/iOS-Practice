@@ -6,5 +6,6 @@
         <page name='enum'/>
         <page name='unwrapping'/>
         <page name='class'/>
+        <page name='struct'/>
     </pages>
 </playground>
