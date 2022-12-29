@@ -1,8 +1,8 @@
 var myAge = 0 {
-    willSet {
+    willSet {  //해당 프로퍼티에 값이 설정되기 직전에 실행
         print("값이 설정될 예정이다. my Age : \(myAge)")
     }
-    didSet {
+    didSet {  //해당 프로퍼티에 값이 설정되고 나서 실행
         print("값이 설정되었다. my Age : \(myAge)")
     }
 }

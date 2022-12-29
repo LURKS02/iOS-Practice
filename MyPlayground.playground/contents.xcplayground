@@ -8,5 +8,6 @@
         <page name='class'/>
         <page name='struct'/>
         <page name='property'/>
+        <page name='function'/>
     </pages>
 </playground>
