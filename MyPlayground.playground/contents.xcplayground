@@ -7,5 +7,6 @@
         <page name='unwrapping'/>
         <page name='class'/>
         <page name='struct'/>
+        <page name='property'/>
     </pages>
 </playground>
