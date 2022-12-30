@@ -9,5 +9,6 @@
         <page name='struct'/>
         <page name='property'/>
         <page name='function'/>
+        <page name='Generics'/>
     </pages>
 </playground>
