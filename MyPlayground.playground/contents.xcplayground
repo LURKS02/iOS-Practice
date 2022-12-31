@@ -10,5 +10,6 @@
         <page name='property'/>
         <page name='function'/>
         <page name='Generics'/>
+        <page name='Initialization'/>
     </pages>
 </playground>
