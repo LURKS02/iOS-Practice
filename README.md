@@ -17,6 +17,7 @@ Swift 기본 문법을 공부하기 위한 페이지입니다.
     - var : [가변변수 var](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/var)
     - let : [불변변수 let](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/let)
     - 프로퍼티 : [Property](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/property.xcplaygroundpage)
+    - 생성자 : [Initialization](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Initialization.xcplaygroundpage)
     - 클로저 : [Closure](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/Closure)
     - 옵셔널/언래핑 : [Optional과 Unwrapping](https://github.com/LURKS02/LearningSwift/blob/main/MyPlayground.playground/Pages/unwrapping.xcplaygroundpage/README.md)
     
