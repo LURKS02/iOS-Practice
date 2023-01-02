@@ -12,5 +12,6 @@
         <page name='Generics'/>
         <page name='Initialization'/>
         <page name='deinitialization'/>
+        <page name='interitance'/>
     </pages>
 </playground>
