@@ -13,5 +13,6 @@
         <page name='Initialization'/>
         <page name='deinitialization'/>
         <page name='interitance'/>
+        <page name='dictionary'/>
     </pages>
 </playground>
