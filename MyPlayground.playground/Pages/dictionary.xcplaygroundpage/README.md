@@ -30,3 +30,8 @@ value 값들을 얻어오는 경우
 > ```swift
 > dictionary.values
 > ```
+
+키로 저장된 값이 없다면 default값을 가져오도록 함
+> ```swift
+> dictionary[없는키, default: 주는값]
+> ```
