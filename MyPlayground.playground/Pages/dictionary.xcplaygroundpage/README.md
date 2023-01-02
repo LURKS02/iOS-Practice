@@ -22,11 +22,11 @@ var dic: Dictionary<Int, String> = [:]
 > ```
 
 key 값들을 얻어오는 경우
-```swift
-dictionary.keys
-```
+> ```swift
+> dictionary.keys
+> ```
 
 value 값들을 얻어오는 경우
-```swift
-dictionary.values
-```
+> ```swift
+> dictionary.values
+> ```
