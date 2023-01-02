@@ -26,3 +26,24 @@ var person1 = Person(age: 12, name: "Jake")
 var person2 = Student(age: 15, name: "Chris", id: 300)
 person1.printClass()
 person2.printClass()
+
+class Grade {
+    var type = "A"
+}
+
+class Change: Grade {
+    override var type: String {
+        get {
+            return "B"
+        }
+        set {
+            super.type = newValue
+        }
+    }
+}
+
+let grade1 = Grade()
+let grade2 = Change()
+print(grade1.type)
+print((grade2 as Grade).type)
+print(grade2.type)
