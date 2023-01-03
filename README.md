@@ -14,6 +14,7 @@ Swift 기본 문법을 공부하기 위한 페이지입니다.
     - 프로퍼티 옵저버 : [Property Observer](https://github.com/LURKS02/LearningSwift/blob/main/MyPlayground.playground/Pages/property.xcplaygroundpage/README2.md)
     - 제네릭 : [Generics](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Generics.xcplaygroundpage)
     - 클로저의 경량화 : [Closure의 경량화](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/Closure2)
+    - 에러 처리 : [Error Handling](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/error.xcplaygroundpage)
 3. 개념
     - var : [가변변수 var](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/var)
     - let : [불변변수 let](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/let)
