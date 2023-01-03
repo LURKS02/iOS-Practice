@@ -16,5 +16,6 @@
         <page name='dictionary'/>
         <page name='final'/>
         <page name='inout'/>
+        <page name='error'/>
     </pages>
 </playground>
