@@ -15,5 +15,6 @@
         <page name='interitance'/>
         <page name='dictionary'/>
         <page name='final'/>
+        <page name='inout'/>
     </pages>
 </playground>
