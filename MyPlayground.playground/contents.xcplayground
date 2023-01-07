@@ -17,5 +17,6 @@
         <page name='final'/>
         <page name='inout'/>
         <page name='error'/>
+        <page name='set'/>
     </pages>
 </playground>
