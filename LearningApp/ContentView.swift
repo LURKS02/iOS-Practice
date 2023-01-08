@@ -13,7 +13,11 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationView {
+                Form {
+                    Text("Hello, world!")
+                }.navigationBarTitle("This is title")
+            }
         }
         .padding()
     }
