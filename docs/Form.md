@@ -1,6 +1,7 @@
 # Form
 
-![form](https://github.com/LURKS02/LearningApp/blob/main/docs/images/스크린샷%202023-01-08%20오전%2010.05.53.png?raw=true)
+<img width="313" alt="스크린샷 2023-01-08 오전 10 05 53" src="https://user-images.githubusercontent.com/63408930/211176310-52fd97db-a906-4bf3-a186-5dffb943cf95.png">
+
 
 
 ```swift
