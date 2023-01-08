@@ -27,3 +27,4 @@ body는 some View (불투명 타입)을 리턴하므로 VStack 등의 자유로�
 - ContentView 특징
 > 1. body는 단 한개의 View만 반환한다. (따라서 여러 개의 View를 하나의 View로 감싸 하나의 View로 리턴해야 한다. : Stack, Group 등)<br>
 > 2. View의 생애주기를 관리할 때는 onAppear / onDisappear 를 사용한다.
+> 3. 최상위 View는 최대 10개의 Child View를 가질 수 있고 초과시 다른 태그를 이용하여 감싸주어야 한다.
