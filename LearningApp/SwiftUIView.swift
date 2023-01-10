@@ -9,17 +9,9 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                .background(.red)
-                .padding(.top, 200)
-            Text("padding test")
-                .background(.yellow)
-                .padding(.leading, 100)
-            Text("TEST")
-                .background(.blue)
-                .padding()
-        }
+        Text("I agree with [Terms & Use](link1) and [Privacy Policy](link2)")
+            .foregroundColor(.gray)
+            .tint(.blue)
     }
 }
 
