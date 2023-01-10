@@ -11,8 +11,8 @@
 		D9382172296A344900204430 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9382171296A344900204430 /* ContentView.swift */; };
 		D9382174296A344A00204430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9382173296A344A00204430 /* Assets.xcassets */; };
 		D9382177296A344A00204430 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9382176296A344A00204430 /* Preview Assets.xcassets */; };
-		D954A381296CE93900772443 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954A380296CE93900772443 /* SignInView.swift */; };
 		D954A383296CF80900772443 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954A382296CF80900772443 /* SwiftUIView.swift */; };
+		D954A385296CF9E000772443 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954A384296CF9E000772443 /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +21,8 @@
 		D9382171296A344900204430 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9382173296A344A00204430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9382176296A344A00204430 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D954A380296CE93900772443 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		D954A382296CF80900772443 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D954A384296CF9E000772443 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			children = (
 				D938216F296A344900204430 /* LearningAppApp.swift */,
 				D9382171296A344900204430 /* ContentView.swift */,
-				D954A380296CE93900772443 /* SignInView.swift */,
+				D954A384296CF9E000772443 /* SignInView.swift */,
 				D954A382296CF80900772443 /* SwiftUIView.swift */,
 				D9382173296A344A00204430 /* Assets.xcassets */,
 				D9382175296A344A00204430 /* Preview Content */,
@@ -145,8 +145,8 @@
 			files = (
 				D9382172296A344900204430 /* ContentView.swift in Sources */,
 				D9382170296A344900204430 /* LearningAppApp.swift in Sources */,
+				D954A385296CF9E000772443 /* SignInView.swift in Sources */,
 				D954A383296CF80900772443 /* SwiftUIView.swift in Sources */,
-				D954A381296CE93900772443 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
