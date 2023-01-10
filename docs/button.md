@@ -4,7 +4,7 @@
 
 
 어플리케이션 화면에 버튼을 추가한다.<br>
-Button은 String을 인자로 받고, 버튼을 눌렀을 때의 콜백을 클로저 블로 내에 작성할 수 있다.
+Button은 String을 인자로 받고, 버튼을 눌렀을 때의 콜백을 클로저 블록 내에 작성할 수 있다.
 
 ```swift
 @State var touchedCount = 0
