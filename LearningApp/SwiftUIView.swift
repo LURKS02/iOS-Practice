@@ -9,9 +9,11 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        Text("I agree with [Terms & Use](link1) and [Privacy Policy](link2)")
-            .foregroundColor(.gray)
-            .tint(.blue)
+        NavigationView {
+            Text("I agree with [Terms & Use](link1) and [Privacy Policy](link2)")
+                .foregroundColor(.gray)
+                .tint(.blue)
+        }.navigationTitle("UI")
     }
 }
 
