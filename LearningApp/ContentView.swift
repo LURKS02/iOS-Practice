@@ -26,7 +26,7 @@ struct ContentView: View {
                         .fontWeight(.bold)
                     .font(.title)
                     .lineSpacing(5)
-                    .padding(.top, 100)
+                    .padding(.top, 170)
                     .foregroundColor(Color(red: 150/255, green: 150/255, blue: 150/255))
                     .tint(Color(red: 89/255, green: 170/255, blue: 175/255))
                     
@@ -61,7 +61,7 @@ struct ContentView: View {
                     .underline()
                     .fontWeight(.bold)
                     .font(.footnote)
-                    .padding(.bottom, 320)
+                    .padding(.bottom, 350)
                     
                     
                 }
