@@ -54,16 +54,21 @@ struct ContentView: View {
                                 .cornerRadius(40)
                         })
                     .padding(10)
+                    .navigationBarTitleDisplayMode(.inline)
+                    .navigationTitle("뒤로가기")
+                    .navigationBarHidden(true)
                     
-                    
-                    Text("기존 아이디로 로그인하기")
-                        .foregroundColor(Color(red: 132/255, green: 132/255, blue: 132/255, opacity: 1.0))
-                        .underline()
-                        .fontWeight(.bold)
-                        .font(.footnote)
-                        .padding(.bottom, 350)
-                    
-                    
+                    NavigationLink (
+                        destination:
+                            LoginView(),
+                        label: {
+                            Text("기존 아이디로 로그인하기")
+                                .foregroundColor(Color(red: 132/255, green: 132/255, blue: 132/255, opacity: 1.0))
+                                .underline()
+                                .fontWeight(.bold)
+                                .font(.footnote)
+                                .padding(.bottom, 350)
+                        })
                 }
             }
         }

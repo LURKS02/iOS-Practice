@@ -7,11 +7,26 @@
 
 import SwiftUI
 
-struct SignInView: View {
-    var body: some View {
 
+struct SignInView: View {
+    
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
+    var backButton : some View {
+        Button(
+            action: {
+                self.presentationMode.wrappedValue.dismiss()
+            }) {
+                Image(systemName: "chevron.backward")    // back button 이미지
+                .aspectRatio(contentMode: .fit)
+                .foregroundColor(Color.gray)
+            }
+    }
+    
+    var body: some View {
+        
             VStack {
-            
+                
                 Spacer().frame(height: 50)
                 
                 HStack {
@@ -46,8 +61,8 @@ struct SignInView: View {
                 .frame(width: 343)
                 
                 Rectangle()
-                .frame(width: 370, height: 1)
-                .foregroundColor(Color(red: 228/255, green: 228/255, blue: 228/255))
+                    .frame(width: 370, height: 1)
+                    .foregroundColor(Color(red: 228/255, green: 228/255, blue: 228/255))
                 
                 HStack {
                     VStack(alignment: .leading) {
@@ -80,23 +95,30 @@ struct SignInView: View {
                 .frame(width: 343)
                 
                 Rectangle()
-                .frame(width: 370, height: 1)
-                .foregroundColor(Color(red: 228/255, green: 228/255, blue: 228/255))
+                    .frame(width: 370, height: 1)
+                    .foregroundColor(Color(red: 228/255, green: 228/255, blue: 228/255))
                 
                 Spacer().frame(height: 70)
                 
-                Text("회원가입")
-                .fontWeight(.semibold)
-                .font(.title3)
-                .lineSpacing(25)
-                .padding(.horizontal, 22)
-                .padding(.vertical, 17)
-                .frame(width: 296, height: 53)
-                .background(Color(red: 0.95, green: 0.95, blue: 0.95))
-                .cornerRadius(40)
-                
+                NavigationLink (
+                destination: MainView(),
+                label: {
+                    Text("회원가입")
+                        .fontWeight(.semibold)
+                        .font(.title3)
+                        .lineSpacing(25)
+                        .padding(.horizontal, 22)
+                        .padding(.vertical, 17)
+                        .frame(width: 296, height: 53)
+                        .background(Color(red: 0.95, green: 0.95, blue: 0.95))
+                        .cornerRadius(40)
+                    
+                })
+                .navigationTitle("회원가입")
+                .navigationBarBackButtonHidden(true)
+                .navigationBarItems(leading: backButton)
                 Spacer()
-        }
+            }
     }
 }
 
