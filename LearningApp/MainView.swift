@@ -13,7 +13,7 @@ struct MainView: View {
         VStack {
             Image("dogImg")
                 .resizable()
-                .frame(width: 393, height: 325)
+                .frame(width: 393, height: 370)
             
             Spacer().frame(height:30)
             
