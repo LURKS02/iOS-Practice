@@ -9,8 +9,17 @@ import SwiftUI
 
 struct MainView: View {
     @State private var showNavigationBar = false
+    let gradient = LinearGradient(
+            gradient: Gradient(stops: [
+                .init(color: .white, location: 0),
+                .init(color: .clear, location: 0.4)
+            ]),
+            startPoint: .top,
+            endPoint: .bottom
+            )
+    
+    
     var body: some View {
-        
         
         ScrollView(.vertical, showsIndicators: false, content: {
             VStack {
@@ -19,6 +28,7 @@ struct MainView: View {
                     .scaledToFill()
                     .frame(width: 393, height: 370)
                     .clipped()
+                    .overlay (gradient)
                 
                 Spacer().frame(height:30)
                 

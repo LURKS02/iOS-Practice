@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D92CBA982978DA570008D676 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92CBA972978DA570008D676 /* CardView.swift */; };
 		D92ECD8C2973AF3B00789C75 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92ECD8B2973AF3B00789C75 /* MainView.swift */; };
 		D92ECD8E2973E2B500789C75 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92ECD8D2973E2B500789C75 /* LoginView.swift */; };
 		D92ECD902977F42900789C75 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92ECD8F2977F42900789C75 /* ListView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D92CBA972978DA570008D676 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D92ECD8B2973AF3B00789C75 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D92ECD8D2973E2B500789C75 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D92ECD8F2977F42900789C75 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				D92ECD8F2977F42900789C75 /* ListView.swift */,
 				D92ECD932977F51C00789C75 /* TabHomeView.swift */,
 				D92ECD952977F54A00789C75 /* MapView.swift */,
+				D92CBA972978DA570008D676 /* CardView.swift */,
 				D954A382296CF80900772443 /* SwiftUIView.swift */,
 				D9382173296A344A00204430 /* Assets.xcassets */,
 				D9382175296A344A00204430 /* Preview Content */,
@@ -162,6 +165,7 @@
 				D9382172296A344900204430 /* ContentView.swift in Sources */,
 				D9382170296A344900204430 /* LearningAppApp.swift in Sources */,
 				D92ECD902977F42900789C75 /* ListView.swift in Sources */,
+				D92CBA982978DA570008D676 /* CardView.swift in Sources */,
 				D954A385296CF9E000772443 /* SignInView.swift in Sources */,
 				D92ECD8C2973AF3B00789C75 /* MainView.swift in Sources */,
 				D954A383296CF80900772443 /* SwiftUIView.swift in Sources */,
