@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct MainView: View {
+    @State private var showNavigationBar = false
     var body: some View {
+        
         
         ScrollView(.vertical, showsIndicators: false, content: {
             VStack {
@@ -16,6 +18,7 @@ struct MainView: View {
                     .resizable()
                     .scaledToFill()
                     .frame(width: 393, height: 370)
+                    .clipped()
                 
                 Spacer().frame(height:30)
                 
@@ -97,6 +100,7 @@ struct MainView: View {
                     .frame(width: 393, height: 350)
             }
         })
+        .toolbar (showNavigationBar ? .visible : .hidden)
     }
 }
 

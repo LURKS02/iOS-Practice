@@ -101,7 +101,7 @@ struct SignInView: View {
                 Spacer().frame(height: 70)
                 
                 NavigationLink (
-                destination: MainView(),
+                destination: TabHomeView(),
                 label: {
                     Text("회원가입")
                         .fontWeight(.semibold)

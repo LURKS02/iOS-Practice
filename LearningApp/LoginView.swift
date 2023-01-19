@@ -88,7 +88,7 @@ struct LoginView: View {
             .foregroundColor(Color(red: 132/255, green: 132/255, blue: 132/255))
             
             NavigationLink (
-            destination: MainView(),
+            destination: TabHomeView(),
             label: {
                 Text("로그인")
                     .fontWeight(.semibold)
