@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MainView: View {
-    @State private var showNavigationBar = false
     let gradient = LinearGradient(
             gradient: Gradient(stops: [
                 .init(color: .white, location: 0),
@@ -110,7 +109,6 @@ struct MainView: View {
                     .frame(width: 393, height: 350)
             }
         })
-        .toolbar (showNavigationBar ? .visible : .hidden)
     }
 }
 

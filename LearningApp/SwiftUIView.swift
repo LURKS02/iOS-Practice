@@ -9,12 +9,13 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        List {
+        NavigationView {
             Text("I agree with [Terms & Use](link1) and [Privacy Policy](link2)")
                 .foregroundColor(.gray)
                 .tint(.blue)
-        }.navigationTitle("UI")
-            .scrollContentBackground(.hidden)
+                .navigationTitle("dd")
+                
+        }
     }
 }
 
