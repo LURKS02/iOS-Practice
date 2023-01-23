@@ -25,7 +25,7 @@ struct TabHomeView: View {
                 }
                 .tag(2)
             
-            MapView()
+            KAKAOView()
                 .tabItem {
                     Image(systemName: "map")
                 }
