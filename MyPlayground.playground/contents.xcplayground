@@ -18,6 +18,7 @@
         <page name='inout'/>
         <page name='error'/>
         <page name='set'/>
+        <page name='Map'/>
         <page name='Input'/>
     </pages>
 </playground>
