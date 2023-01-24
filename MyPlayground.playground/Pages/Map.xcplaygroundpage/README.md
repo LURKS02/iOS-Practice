@@ -16,7 +16,9 @@ let inputArray = readLine()!.split(separator: " ").map{Int($0)!}
 쌍의 시퀀스(n,x)를 반환해주는 메서드<br>
  > n : 0에서 시작하는 연속적인 정수
  > x : 시퀀스의 요소
-'''swift
+
+
+```swift
 array.enumerated().map { index, val in
   String(val - input[index])
-'''
+```
