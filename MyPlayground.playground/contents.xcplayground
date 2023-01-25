@@ -20,5 +20,6 @@
         <page name='set'/>
         <page name='Map'/>
         <page name='Input'/>
+        <page name='while'/>
     </pages>
 </playground>
