@@ -12,6 +12,7 @@ Swift 기본 문법을 공부하기 위한 페이지입니다.
     - Set : [Set](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/set.xcplaygroundpage)
     - Map : [Map](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Map.xcplaygroundpage)
 2. 문법
+    - While : [While](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/while.xcplaygroundpage)
     - For-in/For-each : [For-in과 For-each](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/foreach.xcplaygroundpage)
     - 프로퍼티 옵저버 : [Property Observer](https://github.com/LURKS02/LearningSwift/blob/main/MyPlayground.playground/Pages/property.xcplaygroundpage/README2.md)
     - 제네릭 : [Generics](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Generics.xcplaygroundpage)
