@@ -21,5 +21,6 @@
         <page name='Map'/>
         <page name='Input'/>
         <page name='while'/>
+        <page name='filter'/>
     </pages>
 </playground>
