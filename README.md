@@ -31,4 +31,5 @@ Swift 기본 문법을 공부하기 위한 페이지입니다.
     - In-Out : [In-Out Parameters](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/inout.xcplaygroundpage)
 4. 함수
     - Input : [readLine](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Input.xcplaygroundpage)
+    - Filter: [filter](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/filter.xcplaygroundpage)
     
