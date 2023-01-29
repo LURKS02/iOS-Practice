@@ -5,6 +5,7 @@ Swift 기본 문법을 공부하기 위한 페이지입니다.
 1. 타입
     - Boolean : [bool 타입](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/bool.xcplaygroundpage)
     - Enum : [enum 타입](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/enum.xcplaygroundpage)
+    - 배열 : [Array](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/Concept/Array)
     - 딕셔너리 : [Dictionary](https://github.com/LURKS02/LearningSwift/blob/main/MyPlayground.playground/Pages/dictionary.xcplaygroundpage/README.md)
     - 클래스 : [Class](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/class.xcplaygroundpage)
     - 구조체 : [Struct](https://github.com/LURKS02/LearningSwift/tree/main/MyPlayground.playground/Pages/struct.xcplaygroundpage)
