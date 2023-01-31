@@ -9,6 +9,9 @@ import SwiftUI
 
 struct LoginView: View {
     
+    @State private var username: String = ""
+    @State private var password: String = ""
+    
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     var backButton : some View {
@@ -65,12 +68,12 @@ struct LoginView: View {
                 Spacer().frame(width: 30)
                 
                 VStack(alignment: .leading) {
-                    Text("이메일을 입력하세요.")
+                    TextField("이메일을 입력하세요.", text: $username)
                         .font(.body)
                         .padding(.bottom, 10)
                         .foregroundColor(Color(red: 60/255, green: 60/255, blue: 67/255, opacity: 60/100))
                     
-                    Text("비밀번호를 입력하세요.")
+                    SecureField("비밀번호를 입력하세요.", text: $password)
                         .font(.body)
                         .foregroundColor(Color(red: 60/255, green: 60/255, blue: 67/255, opacity: 60/100))
                     
