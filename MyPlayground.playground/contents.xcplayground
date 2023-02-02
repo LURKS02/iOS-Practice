@@ -22,5 +22,6 @@
         <page name='Input'/>
         <page name='while'/>
         <page name='filter'/>
+        <page name='state'/>
     </pages>
 </playground>
