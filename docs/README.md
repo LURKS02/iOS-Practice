@@ -10,8 +10,9 @@ Xcode에서 어플리케이션을 제작하는 방법을 공부하기 위한 페
 
 <br>
 
-2. 개념
+2. 개념 / 프로토콜
 - 상태 관리 : [State and Binding](https://github.com/LURKS02/LearningApp/blob/main/docs/State.md)
+- Identifiable : [Identifiable](https://github.com/LURKS02/LearningApp/blob/main/docs/Identifiable.md)
 
 <br>
 
