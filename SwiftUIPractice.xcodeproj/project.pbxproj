@@ -8,7 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D91668A629985E5E00A9F4C1 /* TagExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91668A529985E5E00A9F4C1 /* TagExercise.swift */; };
+		D91A7EBC29B6064000630B0A /* ObservedObjectVSStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A7EBB29B6064000630B0A /* ObservedObjectVSStateObject.swift */; };
+		D9276BD329ACDA9300B0A351 /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9276BD229ACDA9300B0A351 /* TextFieldExample.swift */; };
+		D93C66B329A2AC0900B201AF /* BeerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C66B229A2AC0900B201AF /* BeerData.swift */; };
+		D93C66B529A2B01C00B201AF /* BeerDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C66B429A2B01C00B201AF /* BeerDomain.swift */; };
+		D93C66B729A2B29F00B201AF /* BeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C66B629A2B29F00B201AF /* BeerView.swift */; };
+		D93C66B929A2C46000B201AF /* ReducePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C66B829A2C46000B201AF /* ReducePractice.swift */; };
+		D969197429AC4AA600262B60 /* HomeworkBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969197329AC4AA600262B60 /* HomeworkBeerView.swift */; };
 		D96E3A122991265E00C170DE /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96E3A112991265E00C170DE /* Tag.swift */; };
+		D96EBC2B29A388E200668A91 /* UnderstandingObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EBC2A29A388E200668A91 /* UnderstandingObservableObject.swift */; };
+		D96EBC2D29A3A14400668A91 /* BeerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EBC2C29A3A14400668A91 /* BeerRepository.swift */; };
+		D96EBC2F29A3A1CB00668A91 /* BeerRepository+Real.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EBC2E29A3A1CB00668A91 /* BeerRepository+Real.swift */; };
+		D96EBC3229A3A26000668A91 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96EBC3129A3A26000668A91 /* DI.swift */; };
 		D9738165298F0C960081E6A9 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9738164298F0C960081E6A9 /* SwiftUIPracticeApp.swift */; };
 		D9738167298F0C960081E6A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9738166298F0C960081E6A9 /* ContentView.swift */; };
 		D9738169298F0C970081E6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9738168298F0C970081E6A9 /* Assets.xcassets */; };
@@ -16,11 +27,23 @@
 		D9738175298F0DE00081E6A9 /* thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9738172298F0DE00081E6A9 /* thumb.jpg */; };
 		D9738176298F0DE00081E6A9 /* thumb-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9738173298F0DE00081E6A9 /* thumb-2.jpg */; };
 		D9738177298F0DE00081E6A9 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9738174298F0DE00081E6A9 /* maxresdefault.jpg */; };
+		D9C538C729C87E44005D577F /* HTTP+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C538C629C87E44005D577F /* HTTP+Publisher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D91668A529985E5E00A9F4C1 /* TagExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagExercise.swift; sourceTree = "<group>"; };
+		D91A7EBB29B6064000630B0A /* ObservedObjectVSStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectVSStateObject.swift; sourceTree = "<group>"; };
+		D9276BD229ACDA9300B0A351 /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		D93C66B229A2AC0900B201AF /* BeerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerData.swift; sourceTree = "<group>"; };
+		D93C66B429A2B01C00B201AF /* BeerDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDomain.swift; sourceTree = "<group>"; };
+		D93C66B629A2B29F00B201AF /* BeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerView.swift; sourceTree = "<group>"; };
+		D93C66B829A2C46000B201AF /* ReducePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducePractice.swift; sourceTree = "<group>"; };
+		D969197329AC4AA600262B60 /* HomeworkBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkBeerView.swift; sourceTree = "<group>"; };
 		D96E3A112991265E00C170DE /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		D96EBC2A29A388E200668A91 /* UnderstandingObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingObservableObject.swift; sourceTree = "<group>"; };
+		D96EBC2C29A3A14400668A91 /* BeerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRepository.swift; sourceTree = "<group>"; };
+		D96EBC2E29A3A1CB00668A91 /* BeerRepository+Real.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeerRepository+Real.swift"; sourceTree = "<group>"; };
+		D96EBC3129A3A26000668A91 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
 		D9738161298F0C960081E6A9 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9738164298F0C960081E6A9 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		D9738166298F0C960081E6A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +52,7 @@
 		D9738172298F0DE00081E6A9 /* thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thumb.jpg; path = "../../../../Desktop/이미지/thumb.jpg"; sourceTree = "<group>"; };
 		D9738173298F0DE00081E6A9 /* thumb-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "thumb-2.jpg"; path = "../../../../Desktop/이미지/thumb-2.jpg"; sourceTree = "<group>"; };
 		D9738174298F0DE00081E6A9 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maxresdefault.jpg; path = "../../../../Desktop/이미지/maxresdefault.jpg"; sourceTree = "<group>"; };
+		D9C538C629C87E44005D577F /* HTTP+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTP+Publisher.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +66,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D96AEB9A299A5E8D00093968 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D93C66B229A2AC0900B201AF /* BeerData.swift */,
+				D96EBC2E29A3A1CB00668A91 /* BeerRepository+Real.swift */,
+				D9C538C629C87E44005D577F /* HTTP+Publisher.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		D96AEB9B299A5E9A00093968 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D93C66B429A2B01C00B201AF /* BeerDomain.swift */,
+				D96EBC2C29A3A14400668A91 /* BeerRepository.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D96AEB9C299A5E9F00093968 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D9738166298F0C960081E6A9 /* ContentView.swift */,
+				D96E3A112991265E00C170DE /* Tag.swift */,
+				D91668A529985E5E00A9F4C1 /* TagExercise.swift */,
+				D969197329AC4AA600262B60 /* HomeworkBeerView.swift */,
+				D93C66B629A2B29F00B201AF /* BeerView.swift */,
+				D93C66B829A2C46000B201AF /* ReducePractice.swift */,
+				D9276BD229ACDA9300B0A351 /* TextFieldExample.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D96EBC2929A388CB00668A91 /* GoldenBox */ = {
+			isa = PBXGroup;
+			children = (
+				D96EBC2A29A388E200668A91 /* UnderstandingObservableObject.swift */,
+				D91A7EBB29B6064000630B0A /* ObservedObjectVSStateObject.swift */,
+			);
+			path = GoldenBox;
+			sourceTree = "<group>";
+		};
+		D96EBC3029A3A25400668A91 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				D96EBC3129A3A26000668A91 /* DI.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
 		D9738158298F0C960081E6A9 = {
 			isa = PBXGroup;
 			children = (
@@ -61,10 +135,12 @@
 		D9738163298F0C960081E6A9 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D96EBC3029A3A25400668A91 /* Container */,
+				D96EBC2929A388CB00668A91 /* GoldenBox */,
+				D96AEB9C299A5E9F00093968 /* Presentation */,
+				D96AEB9B299A5E9A00093968 /* Domain */,
+				D96AEB9A299A5E8D00093968 /* DataSource */,
 				D9738164298F0C960081E6A9 /* SwiftUIPracticeApp.swift */,
-				D9738166298F0C960081E6A9 /* ContentView.swift */,
-				D96E3A112991265E00C170DE /* Tag.swift */,
-				D91668A529985E5E00A9F4C1 /* TagExercise.swift */,
 				D9738168298F0C970081E6A9 /* Assets.xcassets */,
 				D973816A298F0C970081E6A9 /* Preview Content */,
 			);
@@ -155,10 +231,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D969197429AC4AA600262B60 /* HomeworkBeerView.swift in Sources */,
+				D93C66B329A2AC0900B201AF /* BeerData.swift in Sources */,
+				D9276BD329ACDA9300B0A351 /* TextFieldExample.swift in Sources */,
 				D91668A629985E5E00A9F4C1 /* TagExercise.swift in Sources */,
+				D93C66B929A2C46000B201AF /* ReducePractice.swift in Sources */,
+				D93C66B729A2B29F00B201AF /* BeerView.swift in Sources */,
 				D96E3A122991265E00C170DE /* Tag.swift in Sources */,
+				D93C66B529A2B01C00B201AF /* BeerDomain.swift in Sources */,
+				D9C538C729C87E44005D577F /* HTTP+Publisher.swift in Sources */,
 				D9738167298F0C960081E6A9 /* ContentView.swift in Sources */,
+				D96EBC2B29A388E200668A91 /* UnderstandingObservableObject.swift in Sources */,
+				D96EBC3229A3A26000668A91 /* DI.swift in Sources */,
+				D91A7EBC29B6064000630B0A /* ObservedObjectVSStateObject.swift in Sources */,
+				D96EBC2F29A3A1CB00668A91 /* BeerRepository+Real.swift in Sources */,
 				D9738165298F0C960081E6A9 /* SwiftUIPracticeApp.swift in Sources */,
+				D96EBC2D29A3A14400668A91 /* BeerRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

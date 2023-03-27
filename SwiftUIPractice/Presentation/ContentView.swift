@@ -86,6 +86,12 @@ struct ContentView: View {
                 }
             }
         }
+        .onAppear {
+            /*getBeers { beers in
+                thumbnails = .init(beer.s)
+            }
+             */
+        }
     }
 }
 

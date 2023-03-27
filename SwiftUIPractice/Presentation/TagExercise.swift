@@ -22,7 +22,7 @@ struct YoutubeModifier: ViewModifier {
 }
 
 extension View {
-    func YoutubeTag() -> some View {
+    func youtubeTag() -> some View {
         modifier(YoutubeModifier())
     }
 }
@@ -39,29 +39,48 @@ struct TagExercise: View {
                         .frame(width: 1, height: 17)
                     Image(systemName: "hand.thumbsdown")
                 }
-                .YoutubeTag()
+                .youtubeTag()
                 
                 HStack {
                     Image(systemName: "plus.square.on.square")
                     Text("리믹스")
                 }
-                .YoutubeTag()
+                .youtubeTag()
                 
                 HStack {
                     Image(systemName: "arrowshape.turn.up.right")
                     Text("공유")
                 }
-                .YoutubeTag()
+                .youtubeTag()
                 
                 HStack {
                     Image(systemName: "square.and.arrow.down")
                     Text("오프라인 저장")
                 }
-                .YoutubeTag()
+                .youtubeTag()
+                
+                MyButton(text: "zz") { text in
+                    HStack {
+                        Image(systemName: "square.and.arrow.down")
+                        Text("오프라인 저장")
+                    }
+                }
             }
             .frame(height: 100)
             //이거 지정 안하면 잘려보이는데 일일히 해야하는건강??
         }
+    }
+}
+
+struct MyButton<Content: View>: View {
+    let text: String
+    let content: (ScrollViewProxy) -> Content
+    
+    var body: some View {
+        Button(action: {}) {
+            //callback 함수는 외부에서 구현하도록 한다.
+        }
+        .foregroundColor(Color.red)
     }
 }
 
