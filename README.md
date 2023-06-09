@@ -13,5 +13,7 @@ objective-C practice
     - Polymorphism : [다형성](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Polymorphism.md)
     - Encapsulation : [캡슐화](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Encapsulation.md)
     - Dynamic Binding : [동적 바인딩](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/DynamicBinding.md)
-3. 함수
+3. 패턴
+    - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
+4. 함수
     
