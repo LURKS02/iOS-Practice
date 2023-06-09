@@ -17,3 +17,5 @@ objective-C practice
 3. 패턴
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
 4. 함수
+5. 기타
+    - Memory Management : [메모리 관리 기법](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MemoryManagement.md)
