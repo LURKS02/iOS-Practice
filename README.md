@@ -12,5 +12,6 @@ objective-C practice
     - Inheritance : [상속](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Inheritance.md)
     - Polymorphism : [다형성](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Polymorphism.md)
     - Encapsulation : [캡슐화](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Encapsulation.md)
+    - Dynamic Binding : [동적 바인딩](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/DynamicBinding.md)
 3. 함수
     
