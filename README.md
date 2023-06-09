@@ -3,7 +3,7 @@
 objective-C practice
 
 1. 문법
-    - Categories : [Category](https://github.com/LURKS02/objectiveCPractice/tree/main/Docs)
+    - Categories : [Category](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Categories.md)
 2. 개념
     - Classes & Objects : [Class와 Object](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Classes&Objects.md)
     - Inheritance : [상속](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Inheritance.md)
