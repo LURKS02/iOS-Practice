@@ -20,5 +20,11 @@
 
 
 - (IBAction)touchDownButton:(id)sender {
+    UIAlertController * alert = [UIAlertController
+                                 alertControllerWithTitle:@"Hello, I got it!"
+                                 message:@"button touched"
+                                 preferredStyle:UIAlertControllerStyleAlert];
+    
+    [self presentViewController:alert animated:YES completion:nil];
 }
 @end
