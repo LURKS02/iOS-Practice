@@ -31,7 +31,10 @@ Objective-C란 객체 지향성이 추가된 C 프로그래밍 언어이다.
 
 ### Properties<br>
 클래스 외부에서 클래스 인스턴스 변수에 접근할 수 있도록 한다.
+프로퍼티를 통해야만 클래스 인스턴스 변수에 접근할 수 있으며, 프로퍼티를 위해 내부적으로 getter/setter 메서드가 생성된다.
 - 프로퍼티 선언
 ```objective-c
 @property (접근지정자) 데이터유형 프로퍼티이름;
 ```
+- 접근 지정자(access specifiers)
+nonatomic/atomic, readwrite/readonly, strong/unsafe_unretained/weak
