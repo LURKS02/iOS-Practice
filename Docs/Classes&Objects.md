@@ -43,6 +43,11 @@ Objective-C는 기본적으로 main() 함수를 포함하는 main.m 파일이 �
 @property
 @end
 ```
+- 메서드 정의
+```objective-c
+메서드형식 (반환형) 메서드이름: (인수형) 인수이름 파라미터이름: (인수형) 인수이름
+```
+
 
 ### NSObject
 모든 클래스의 직/간접적 부모 클래스이며, Objective-C의 루트 클래스 역할을 한다.<br>
