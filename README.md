@@ -3,6 +3,7 @@
 objective-C practice
 
 1. 문법
+    - Method : [메서드](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Method.md)
     - Categories : [Category](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Categories.md)
     - Posing : [Posing](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Posing.md)
     - Extension : [Extension](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Extension.md)
