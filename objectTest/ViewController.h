@@ -9,6 +9,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)touchDownButton:(id)sender;
 
 @end
 
