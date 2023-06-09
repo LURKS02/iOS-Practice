@@ -36,5 +36,5 @@ Objective-C란 객체 지향성이 추가된 C 프로그래밍 언어이다.
 ```objective-c
 @property (접근지정자) 데이터유형 프로퍼티이름;
 ```
-- 접근 지정자(access specifiers)
+- 접근 지정자(access specifiers)<br>
 nonatomic/atomic, readwrite/readonly, strong/unsafe_unretained/weak
