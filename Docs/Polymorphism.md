@@ -2,6 +2,25 @@
 
 여러 가지 형태를 갖는 것으로, 클래스가 상속으로 관련된 계층 구조를 갖는 경우 발생한다.<br>
 멤버 함수를 호출했을 때, 함수를 호출한 객체의 유형에 따라 다른 함수가 실행되도록 하는 것을 의미한다.<br>
+동일한 메시지를 보내더라도 리시버 객체에 따라 적절한 메서드가 선택되어 실행되는 성질을 의미한다.<br>
+
+#### 절차적 프로그래밍 (C)
+```c
+switch(target->kind){
+  case Line :
+  lineDragged(drection);
+ 
+  case Circle : 
+  circleMove(drection);
+  break;
+}
+```
+
+#### 객체 지향 프로그래밍 (Objective-C)
+```objective-c
+[target move:direction];
+// 각 개체가 처리될 때, 어떤 처리를 할지는 실제로 메시지를 받은 객체가 결정한다.
+```
 
 ```objective-c
 
