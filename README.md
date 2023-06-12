@@ -9,6 +9,7 @@ objective-C practice
     - Extension : [Extension](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Extension.md)
     - Protocol : [프로토콜](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Protocol.md)
     - Fast Enumeration : [빠른 열거](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/FastEnumeration.md)
+    - Property : [접근자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Property.md)
 2. 개념
     - Classes & Objects : [Class와 Object](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Classes&Objects.md)
     - Inheritance : [상속](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Inheritance.md)
