@@ -16,6 +16,7 @@ objective-C practice
     - Encapsulation : [캡슐화](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Encapsulation.md)
     - Dynamic Binding : [동적 바인딩](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/DynamicBinding.md)
     - Life Cycle : [생명주기](https://github.com/LURKS02/objectiveCPractice/tree/main/Docs)
+    - Pointer : [포인터와 동적 할당](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Pointer.md)
 3. 패턴
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
 4. 함수
