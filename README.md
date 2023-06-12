@@ -5,7 +5,7 @@ objective-C practice
 1. 문법
     - Method : [메서드](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Method.md)<br>
                <t> ㄴ Class Method : [클래스 메서드](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Class%20Method.md)
-    - Categories : [Category](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Categories.md)
+    - Categories : [카테고리](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Categories.md)
     - Posing : [Posing](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Posing.md)
     - Extension : [Extension](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Extension.md)
     - Protocol : [프로토콜](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Protocol.md)
