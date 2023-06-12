@@ -1,4 +1,4 @@
-이# Getter & Setter
+# Getter & Setter
 
 #### getter
 멤버 변수의 값을 반환하는 함수<br>
