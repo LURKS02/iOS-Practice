@@ -16,9 +16,14 @@ Top, Bottom, Leading, Trailing에 대한 시스템 마진을 모두 가진다.<b
 시스템에 의하여 가려질 수 있는 부분의 마진을 자체적으로 가지는 것을 말한다.<br>
 
 #### 특정 Constraint만 Safe Area를 적용하지 않는 방법
-<img width="202" alt="스크린샷 2023-06-13 오전 11 26 56" src="https://github.com/LURKS02/objectiveCPractice/assets/63408930/b0a1acf7-26c3-4881-ba00-7cf54a61579f">
+<img width="250" alt="스크린샷 2023-06-13 오후 2 34 50" src="https://github.com/LURKS02/objectiveCPractice/assets/63408930/ba9d88d8-4d1d-4ed4-8d73-62f6e164b1d5">
 
 Constraint의 기준 뷰를 Superview로 설정한다.
+
+<br>
+
+<img width="334" alt="스크린샷 2023-06-13 오후 2 33 55" src="https://github.com/LURKS02/objectiveCPractice/assets/63408930/2631a2d2-8b75-441a-9ae3-f8114dc0863b">
+
 
 <br>
 
