@@ -54,6 +54,7 @@
 		580741B32A31A36F0045AE92 /* objectTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objectTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580741B72A31A36F0045AE92 /* objectTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objectTestUITests.m; sourceTree = "<group>"; };
 		580741B92A31A36F0045AE92 /* objectTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objectTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5899D2762A3802B300CC069A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 				580741AC2A31A36E0045AE92 /* objectTestTests */,
 				580741B62A31A36F0045AE92 /* objectTestUITests */,
 				5807418F2A31A36C0045AE92 /* Products */,
+				5899D2752A3802B300CC069A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +136,14 @@
 				580741B92A31A36F0045AE92 /* objectTestUITestsLaunchTests.m */,
 			);
 			path = objectTestUITests;
+			sourceTree = "<group>";
+		};
+		5899D2752A3802B300CC069A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5899D2762A3802B300CC069A /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

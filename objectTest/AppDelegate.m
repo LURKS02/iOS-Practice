@@ -32,7 +32,8 @@
 // 앱 프로세스 완료 및 앱 실행 실시
 // 앱이 실행 준비를 거의 마쳤을 때 호출되며, 앱에 필요한 크리티컬한 데이터의 초기화 진행
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    return YES;
+    sleep(1);
+        return YES;
 }
 
 #pragma mark - UISceneSession lifecycle
