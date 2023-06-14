@@ -20,7 +20,10 @@ objective-C practice
     - Dynamic Binding : [동적 바인딩](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/DynamicBinding.md)
     - Life Cycle : [생명주기](https://github.com/LURKS02/objectiveCPractice/tree/main/Docs)
     - Pointer : [포인터와 동적 할당](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Pointer.md)
+    - Weak Reference : [약한 참조](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/WeakReference.md)
 3. 패턴
+    - MVC Pattern : [MVC 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MVC.md)
+    - Delegate Pattern : [위임 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Delegate.md)
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
 4. 함수
     - Getter & Setter : [Getter와 Setter](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Getter%26Setter.md)
@@ -28,3 +31,7 @@ objective-C practice
     - init : [초기화 init](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/init.md)
 5. 기타
     - Memory Management : [메모리 관리 기법](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MemoryManagement.md)
+    
+* 어플리케이션 관련
+    - Launch Screen : [런치 스크린](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/LaunchScreen.md)
+    - Auto Layout : [오토 레이아웃](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/AutoLayout.md)
