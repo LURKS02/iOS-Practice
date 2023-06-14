@@ -21,6 +21,7 @@ objective-C practice
     - Life Cycle : [생명주기](https://github.com/LURKS02/objectiveCPractice/tree/main/Docs)
     - Pointer : [포인터와 동적 할당](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Pointer.md)
 3. 패턴
+    - MVC Pattern : [MVC 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MVC.md)
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
 4. 함수
     - Getter & Setter : [Getter와 Setter](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Getter%26Setter.md)
