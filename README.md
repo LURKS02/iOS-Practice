@@ -10,7 +10,7 @@ objective-C practice
     - Extension : [Extension](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Extension.md)
     - Protocol : [프로토콜](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Protocol.md)
     - Fast Enumeration : [빠른 열거](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/FastEnumeration.md)
-    - Property : [접근자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Property.md)
+    - Property : [속성](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Property.md)
     - Visibility : [가시성](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Visibility.md)
     - Outlet : [아웃렛](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Outlet.md)
 2. 개념
@@ -27,6 +27,7 @@ objective-C practice
     - Delegate Pattern : [위임 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Delegate.md)
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
 4. 함수
+    - Accessor : [접근자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Accessor.md)
     - Getter & Setter : [Getter와 Setter](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Getter%26Setter.md)
     - +(void)initialize : [객체 초기화 함수](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/%2B(void)initialize.md)
     - init : [초기화 init](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/init.md)
