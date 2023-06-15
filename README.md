@@ -26,10 +26,11 @@ objective-C practice
     - MVC Pattern : [MVC 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MVC.md)
     - Delegate Pattern : [위임 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Delegate.md)
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
-4. 함수
+4. 함수&키워드
     - Accessor : [접근자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Accessor.md)
     - +(void)initialize : [객체 초기화 함수](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/%2B(void)initialize.md)
     - init : [초기화 init](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/init.md)
+    - instancetype : [instancetype](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/instancetype.md)
 5. 기타
     - Memory Management : [메모리 관리 기법](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MemoryManagement.md)
     
