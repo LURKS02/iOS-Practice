@@ -43,4 +43,4 @@ objective-C practice
     <br>
     
 * 기타 질문사항
-    - ViewController&viewDidLoad : [뷰 컨트롤러와 viewDidLoad의 관계]()
+    - ViewController&viewDidLoad : [뷰 컨트롤러와 viewDidLoad의 관계](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/ViewController%26viewDidLoad.md)
