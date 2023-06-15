@@ -28,7 +28,6 @@ objective-C practice
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
 4. 함수
     - Accessor : [접근자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Accessor.md)
-    - Getter & Setter : [Getter와 Setter](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Getter%26Setter.md)
     - +(void)initialize : [객체 초기화 함수](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/%2B(void)initialize.md)
     - init : [초기화 init](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/init.md)
 5. 기타
