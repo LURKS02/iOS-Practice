@@ -34,6 +34,13 @@ objective-C practice
 5. 기타
     - Memory Management : [메모리 관리 기법](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MemoryManagement.md)
     
+    <br>
+    
 * 어플리케이션 관련
     - Launch Screen : [런치 스크린](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/LaunchScreen.md)
     - Auto Layout : [오토 레이아웃](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/AutoLayout.md)
+
+    <br>
+    
+* 기타 질문사항
+    - ViewController&viewDidLoad : [뷰 컨트롤러와 viewDidLoad의 관계]()
