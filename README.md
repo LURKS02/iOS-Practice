@@ -12,6 +12,7 @@ objective-C practice
     - Fast Enumeration : [빠른 열거](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/FastEnumeration.md)
     - Property : [접근자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Property.md)
     - Visibility : [가시성](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Visibility.md)
+    - Outlet : [아웃렛](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Outlet.md)
 2. 개념
     - Classes & Objects : [Class와 Object](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Classes&Objects.md)
     - Inheritance : [상속](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Inheritance.md)
