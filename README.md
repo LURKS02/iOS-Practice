@@ -33,6 +33,7 @@ objective-C practice
     - instancetype : [instancetype](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/instancetype.md)
 5. 기타
     - Memory Management : [메모리 관리 기법](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MemoryManagement.md)
+    - Core Data : [코어 데이터]()
     
     <br>
     
