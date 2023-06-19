@@ -1,6 +1,12 @@
 # Objective-C
 
-objective-C practice
+objective-C 기초 지식에 대하여 정리한 레포지토리입니다.
+
+<br>
+
+### [Objective-C 코딩 스타일 가이드]()
+
+<br>
 
 1. 문법
     - Method : [메서드](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Method.md)<br>
