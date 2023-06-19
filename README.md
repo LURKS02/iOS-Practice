@@ -24,6 +24,7 @@ objective-C practice
     - Weak Reference : [약한 참조](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/WeakReference.md)
 3. 패턴
     - MVC Pattern : [MVC 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MVC.md)
+    - Singleton Pattern : [싱글턴 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Singleton.md)
     - Delegate Pattern : [위임 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Delegate.md)
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
 4. 함수&키워드
