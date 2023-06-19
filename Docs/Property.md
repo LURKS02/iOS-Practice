@@ -73,6 +73,9 @@ getter / setter 가 구현되어 있지 않아도 컴파일러 경고를 받지 
 - readwrite : 기본 동작으로 getter / setter를 모두 만든다.
 - readonly : getter만 생성한다.
 - assign : 기본 동작으로 setter가 간단한 할당을 사용(Ex. location = where) 한다. 객체를 소요할 필요가 없을 때 사용한다.
-- retain : reference count를 증가시킨다. 포인터 객체를 할당할 경우 외부에서 객체가 릴리즈되어 파괴된 객체를 참조하는 문제를 막기 위하여 클래스가 멤버 객체를 소유하도록 reference count 를 증가시킨다. (이전 값 release)
+- strong(retain) : reference count를 증가시킨다. 포인터 객체를 할당할 경우 외부에서 객체가 릴리즈되어 파괴된 객체를 참조하는 문제를 막기 위하여 클래스가 멤버 객체를 소유하도록 reference count 를 증가시킨다. (이전 값 release)<br>
+프로퍼티가 참조하고자 하는 객체를 소유하며, 해당 변수가 스코프에서 유효할 동안 변수가 다른 객체나 nil을 참조할 때 까지 변수가 가리키고 있는 객체와 strong 참조를 유지한다.
+- weak : 다른 객체에 strong 참조되는 동안 weak 참조하는 쪽에서도 유효하지만, 어떤 객체도 참조하지 않게 될 때 weak 참조로 참조하던 객체는 파괴된다.<br>
+delegate 형식의 프로퍼티는 순환적 참조를 막기 위해 weak 참조된다.
 - copy : 할당하는데 객체의 복사본을 사용한다. 포인터 객체의 경우 reference의 값이 바뀌어 프로퍼티의 값이 바뀌는 것을 막기 위하여 setter에서 복사본을 만들어 할당한다. NSCopying 프로토콜을 구현한 객체에서만 가능하다.
 - nonatomic : 엑세서들을 non-atomic으로 지정한다. 멀티 프로세서 환경에서는 지정해야 하며, mutually exclusive lock으로 접근자 메서드를 보호하지 말라고 지시하는 것이다.   
