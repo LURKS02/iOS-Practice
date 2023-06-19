@@ -31,7 +31,9 @@ objective-C practice
     - +(void)initialize : [객체 초기화 함수](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/%2B(void)initialize.md)
     - init : [초기화 init](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/init.md)
     - instancetype : [instancetype](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/instancetype.md)
-5. 기타
+5. 클래스
+    - NSPersistentContainer : [NSPersistentContainer](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/NSPersistentContainer.md)
+6. 기타
     - Memory Management : [메모리 관리 기법](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MemoryManagement.md)
     - Core Data : [코어 데이터](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CoreData.md)
     
