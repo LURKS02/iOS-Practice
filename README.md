@@ -33,6 +33,7 @@ objective-C 기초 지식에 대하여 정리한 레포지토리입니다.
     - Singleton Pattern : [싱글턴 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Singleton.md)
     - Delegate Pattern : [위임 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Delegate.md)
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
+    - Observer Pattern : [옵저버 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Observer.md)
 4. 함수&키워드
     - Accessor : [접근자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Accessor.md)
     - +(void)initialize : [객체 초기화 함수](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/%2B(void)initialize.md)
