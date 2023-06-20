@@ -1,6 +1,17 @@
-# General Principles
+# Objective-C 코딩 가이드라인 (Apple)
+Apple의 "Coding Guidelines for Cocoa"에 의거하여 정리된 Objective-C 코딩 가이드라인입니다.<br>
 
-### - 명확성(Clarity)
+
+## 목차
+- Code Naming Basics
+  - General Principles
+  - 
+
+
+## Code Naming Basics
+### General Principles
+
+#### - 명확성(Clarity)
 가능한 한 명확하고 간결하게 표현하는 것이 좋지만, 간결함 때문에 명확성을 잃어서는 안된다.<br>
 
 ##### 좋은 예
@@ -50,7 +61,7 @@ displayName // 이름을 표시(display)하는 것인지 사용자 인터페이�
 
 <br>
 
-### - 일관성(Consistency)
+#### - 일관성(Consistency)
 Cocoa 프로그래밍 인터페이스 전체에서 일관된 naming을 사용해야 한다.<br>
 확실하지 않을 때는 헤더 파일이나 참조 문서를 참고한다.<br>
 이는 특히 다형성(polymorphism)을 활용해야 하는 메서드를 가진 클래스의 경우 매우 중요하다.<br>
@@ -64,7 +75,7 @@ Cocoa 프로그래밍 인터페이스 전체에서 일관된 naming을 사용해
 
 <br>
 
-### - No Self Reference
+#### - No Self Reference
 이름은 자기 참조적 (self-referential)이어서는 안된다.<br>
 
 ##### 좋은 예
@@ -87,5 +98,27 @@ NSUnderlineByWordMask
 
 NSTableViewColumnDidMoveNotification
 ```
+<br>
 
+### Prefixes
 
+접두사는 프로그래밍 인터페이스에서 이름상 중요한 부분으로, 소프트웨어의 기능적인 영역을 구분짓는 역할을 한다.<br>
+일반적으로 이러한 소프트웨어는 프레임워크로 제공되거나, 밀접한 관련이 있는 프레임워크에 포함된다. (Ex. Foundation 및 Application Kit)<br>
+접두사는 third-party 개발자가 정의한 symbol과 Apple에서 정의된 symbol 간, 그리고Apple 자체 프레임워크 내에서의 충돌을 방지하는 역할을 한다.<br>
+
+<br>
+
+접두사는 규정된 형식을 따르며, 대문자로 구성된 2~3개의 글자로 이루어져 있다.<br>
+밑줄 또는 하위 접두사를 허용하지 않는다.<br>
+
+##### 예시
+
+```objective-c
+NS // Foundation
+NS // Application Kit
+AB // Address Book
+IB // Interface Builder
+```
+Typedef 구조체, 클래스, 프로토콜, 함수, 상수를 명명할 때 접두사를 사용한다.<br>
+단, 메서드는 해당 메서드를 정의한 클래스에 의해서 생성된 이름 공간에 존재하므로, 메서드를 명명할 때는 접두사를 사용하지 않는다.<br>
+또한, 구조체의 field를 명명할 때도 접두사를 사용하지 않는다.<br>
