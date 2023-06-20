@@ -122,3 +122,26 @@ IB // Interface Builder
 Typedef 구조체, 클래스, 프로토콜, 함수, 상수를 명명할 때 접두사를 사용한다.<br>
 단, 메서드는 해당 메서드를 정의한 클래스에 의해서 생성된 이름 공간에 존재하므로, 메서드를 명명할 때는 접두사를 사용하지 않는다.<br>
 또한, 구조체의 field를 명명할 때도 접두사를 사용하지 않는다.<br>
+
+<br>
+
+### Typographic Conventions
+
+API 요소를 명명할 때, 몇 가지 typographic conventions가 존재한다.<br>
+여러 단어로 구성된 이름에 이름 또는 구분자로서 구두점 기호(언더스코어, 대시 등)을 사용하지 않는다.<br> 대신, 각 단어의 첫 글자를 대문자로 쓰고 단어를 이어 붙이는 카멜 케이스(Camel-Casing) 방식을 사용한다.<br>
+
+##### 유의 사항
+- 메서드 이름의 경우, 소문자로 시작하고 내부 단어의 첫 글자를 대문자로 작성하며, 접두사는 사용하지 않는다.<br>
+```objective-c
+fileExistAtPath: isDirectory:
+```
+이러한 가이드라인에 대한 예외로, 잘 알려진 약어로 시작하는 메서드명이 있다. (Ex. TIFFRepresentation (NSImage))<br>
+- 함수와 상수 이름의 경우, 관련된 클래스와 동일한 접두사를 사용하며 내부 단어의 첫 글자를 대문자로 작성한다.<br>
+```objective-c
+NSRunAlertPanel
+
+NSCellDisabled
+```
+private를 나타내기 위하여 메서드 이름에 접두사로 언더스코어를 사용하면 안된다. (인스턴스 변수 이름에 대한 사용은 가능)<br>
+Apple은 이러한 규칙을 고수하고 있으며, 이러한 규칙을 Third party가 사용하면 name-space collision이 발생할 수 있다.<br>
+또한 기존의 비공개(private) 메서드를 우연히 override 하게 될 수 있다.<br>
