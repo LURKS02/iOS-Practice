@@ -17,6 +17,16 @@
 		580741AE2A31A36E0045AE92 /* objectTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580741AD2A31A36E0045AE92 /* objectTestTests.m */; };
 		580741B82A31A36F0045AE92 /* objectTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580741B72A31A36F0045AE92 /* objectTestUITests.m */; };
 		580741BA2A31A36F0045AE92 /* objectTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 580741B92A31A36F0045AE92 /* objectTestUITestsLaunchTests.m */; };
+		58964D082A39C122003CDEF9 /* CatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58964D072A39C122003CDEF9 /* CatTableViewCell.m */; };
+		58964D0C2A3AA304003CDEF9 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 58964D0B2A3AA304003CDEF9 /* Cat.m */; };
+		58964D122A3AAD4D003CDEF9 /* CatListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58964D112A3AAD4D003CDEF9 /* CatListTableViewController.m */; };
+		58964D152A3AD5C6003CDEF9 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58964D142A3AD5C6003CDEF9 /* ComposeViewController.m */; };
+		58964D182A3B0881003CDEF9 /* CatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58964D172A3B0881003CDEF9 /* CatDetailViewController.m */; };
+		58964D1B2A3B13C3003CDEF9 /* CatModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58964D192A3B13C3003CDEF9 /* CatModel.xcdatamodeld */; };
+		58964D1D2A3B1543003CDEF9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58964D1C2A3B1543003CDEF9 /* CoreData.framework */; };
+		58964D222A3BFAA7003CDEF9 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58964D212A3BFAA7003CDEF9 /* DataManager.m */; };
+		58964D262A3C0827003CDEF9 /* Cat+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58964D242A3C0827003CDEF9 /* Cat+CoreDataClass.swift */; };
+		58964D272A3C0827003CDEF9 /* Cat+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58964D252A3C0827003CDEF9 /* Cat+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,23 @@
 		580741B32A31A36F0045AE92 /* objectTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objectTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580741B72A31A36F0045AE92 /* objectTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objectTestUITests.m; sourceTree = "<group>"; };
 		580741B92A31A36F0045AE92 /* objectTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objectTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		58964D062A39C122003CDEF9 /* CatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatTableViewCell.h; sourceTree = "<group>"; };
+		58964D072A39C122003CDEF9 /* CatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatTableViewCell.m; sourceTree = "<group>"; };
+		58964D0A2A3AA304003CDEF9 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		58964D0B2A3AA304003CDEF9 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		58964D102A3AAD4D003CDEF9 /* CatListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatListTableViewController.h; sourceTree = "<group>"; };
+		58964D112A3AAD4D003CDEF9 /* CatListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatListTableViewController.m; sourceTree = "<group>"; };
+		58964D132A3AD5C6003CDEF9 /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		58964D142A3AD5C6003CDEF9 /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		58964D162A3B0881003CDEF9 /* CatDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatDetailViewController.h; sourceTree = "<group>"; };
+		58964D172A3B0881003CDEF9 /* CatDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatDetailViewController.m; sourceTree = "<group>"; };
+		58964D1A2A3B13C3003CDEF9 /* CatModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatModel.xcdatamodel; sourceTree = "<group>"; };
+		58964D1C2A3B1543003CDEF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		58964D202A3BFAA7003CDEF9 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		58964D212A3BFAA7003CDEF9 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		58964D232A3C0826003CDEF9 /* objectTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objectTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		58964D242A3C0827003CDEF9 /* Cat+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cat+CoreDataClass.swift"; sourceTree = "<group>"; };
+		58964D252A3C0827003CDEF9 /* Cat+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cat+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5899D2762A3802B300CC069A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -62,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58964D1D2A3B1543003CDEF9 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +118,7 @@
 				580741B62A31A36F0045AE92 /* objectTestUITests */,
 				5807418F2A31A36C0045AE92 /* Products */,
 				5899D2752A3802B300CC069A /* Frameworks */,
+				58964D232A3C0826003CDEF9 /* objectTest-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +135,7 @@
 		580741902A31A36C0045AE92 /* objectTest */ = {
 			isa = PBXGroup;
 			children = (
+				58964D092A3AA2CF003CDEF9 /* DataModel */,
 				580741912A31A36C0045AE92 /* AppDelegate.h */,
 				580741922A31A36C0045AE92 /* AppDelegate.m */,
 				580741942A31A36C0045AE92 /* SceneDelegate.h */,
@@ -117,6 +147,15 @@
 				5807419F2A31A36E0045AE92 /* LaunchScreen.storyboard */,
 				580741A22A31A36E0045AE92 /* Info.plist */,
 				580741A32A31A36E0045AE92 /* main.m */,
+				58964D062A39C122003CDEF9 /* CatTableViewCell.h */,
+				58964D072A39C122003CDEF9 /* CatTableViewCell.m */,
+				58964D102A3AAD4D003CDEF9 /* CatListTableViewController.h */,
+				58964D112A3AAD4D003CDEF9 /* CatListTableViewController.m */,
+				58964D132A3AD5C6003CDEF9 /* ComposeViewController.h */,
+				58964D142A3AD5C6003CDEF9 /* ComposeViewController.m */,
+				58964D162A3B0881003CDEF9 /* CatDetailViewController.h */,
+				58964D172A3B0881003CDEF9 /* CatDetailViewController.m */,
+				58964D192A3B13C3003CDEF9 /* CatModel.xcdatamodeld */,
 			);
 			path = objectTest;
 			sourceTree = "<group>";
@@ -138,9 +177,23 @@
 			path = objectTestUITests;
 			sourceTree = "<group>";
 		};
+		58964D092A3AA2CF003CDEF9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				58964D242A3C0827003CDEF9 /* Cat+CoreDataClass.swift */,
+				58964D252A3C0827003CDEF9 /* Cat+CoreDataProperties.swift */,
+				58964D0A2A3AA304003CDEF9 /* Cat.h */,
+				58964D0B2A3AA304003CDEF9 /* Cat.m */,
+				58964D202A3BFAA7003CDEF9 /* DataManager.h */,
+				58964D212A3BFAA7003CDEF9 /* DataManager.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		5899D2752A3802B300CC069A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				58964D1C2A3B1543003CDEF9 /* CoreData.framework */,
 				5899D2762A3802B300CC069A /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -213,6 +266,7 @@
 				TargetAttributes = {
 					5807418D2A31A36C0045AE92 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					580741A82A31A36E0045AE92 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -276,10 +330,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58964D0C2A3AA304003CDEF9 /* Cat.m in Sources */,
+				58964D122A3AAD4D003CDEF9 /* CatListTableViewController.m in Sources */,
+				58964D262A3C0827003CDEF9 /* Cat+CoreDataClass.swift in Sources */,
 				580741992A31A36C0045AE92 /* ViewController.m in Sources */,
+				58964D272A3C0827003CDEF9 /* Cat+CoreDataProperties.swift in Sources */,
+				58964D082A39C122003CDEF9 /* CatTableViewCell.m in Sources */,
+				58964D1B2A3B13C3003CDEF9 /* CatModel.xcdatamodeld in Sources */,
 				580741932A31A36C0045AE92 /* AppDelegate.m in Sources */,
 				580741A42A31A36E0045AE92 /* main.m in Sources */,
+				58964D182A3B0881003CDEF9 /* CatDetailViewController.m in Sources */,
 				580741962A31A36C0045AE92 /* SceneDelegate.m in Sources */,
+				58964D222A3BFAA7003CDEF9 /* DataManager.m in Sources */,
+				58964D152A3AD5C6003CDEF9 /* ComposeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -467,6 +531,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.object.objectTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "objectTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -476,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -493,6 +561,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.object.objectTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "objectTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -500,6 +570,7 @@
 		580741C12A31A36F0045AE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -517,6 +588,7 @@
 		580741C22A31A36F0045AE92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -534,6 +606,7 @@
 		580741C42A31A36F0045AE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -549,6 +622,7 @@
 		580741C52A31A36F0045AE92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -601,6 +675,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58964D192A3B13C3003CDEF9 /* CatModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58964D1A2A3B13C3003CDEF9 /* CatModel.xcdatamodel */,
+			);
+			currentVersion = 58964D1A2A3B13C3003CDEF9 /* CatModel.xcdatamodel */;
+			path = CatModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 580741862A31A36C0045AE92 /* Project object */;
 }
