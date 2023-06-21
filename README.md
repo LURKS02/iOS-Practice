@@ -60,3 +60,4 @@ objective-C 기초 지식에 대하여 정리한 레포지토리입니다.
     - First Responder Ex : [최초 응답자 배치 문제](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/FirstResponderEx.md)
     - Inheritance & Protocol : [상속과 프로토콜](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Inheritance%2BProtocol.md)
     - const & #define : [const와 #define](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/const%2B%23define.md)
+    - IBOutlet weak reference : [IBOutlet과 weak 참조](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/IBOutlet%2Bweakref.md)
