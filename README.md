@@ -34,6 +34,7 @@ objective-C 기초 지식에 대하여 정리한 레포지토리입니다.
     - Delegate Pattern : [위임 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Delegate.md)
     - Composite Object : [합성 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CompositeObject.md)
     - Observer Pattern : [옵저버 패턴](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Observer.md)
+    - Dependency Injection : [DI, 의존성 주입](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/DI.md)
 4. 함수&키워드
     - Accessor : [접근자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Accessor.md)
     - Block : [블록](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Block.md)
