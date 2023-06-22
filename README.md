@@ -22,6 +22,7 @@ objective-C 기초 지식에 대하여 정리한 레포지토리입니다.
 2. 개념
     - Classes & Objects : [Class와 Object](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Classes&Objects.md)
     - Inheritance : [상속](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Inheritance.md)
+    - Asynchronous & Synchronous : [비동기 & 동기 처리 방식](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Async%2BSync.md)
     - Polymorphism : [다형성](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Polymorphism.md)
     - Encapsulation : [캡슐화](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Encapsulation.md)
     - Dynamic Binding : [동적 바인딩](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/DynamicBinding.md)
