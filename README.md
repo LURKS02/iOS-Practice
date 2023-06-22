@@ -43,6 +43,7 @@ objective-C 기초 지식에 대하여 정리한 레포지토리입니다.
     - #define : [전처리기 지시자](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/define.md)
     - init : [초기화 init](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/init.md)
     - instancetype : [instancetype](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/instancetype.md)
+    - dispatch_async & dispatch_sync : [dispatch_async/sync](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/dispatch_async%2Bsync.md)
 5. 클래스
     - NSPersistentContainer : [NSPersistentContainer](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/NSPersistentContainer.md)
 6. 기타
