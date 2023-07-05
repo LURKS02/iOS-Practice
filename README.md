@@ -56,6 +56,7 @@ objective-C 기초 지식에 대하여 정리한 레포지토리입니다.
 
 * Plus 개념
     - High Performance AutoLayout : [오토레이아웃 최적화](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/HighPerformanceAutoLayout.md)
+    - iOS Application Life Cycle : [어플리케이션 라이프 사이클](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/AppLifeCycle.md)
 
 <br>
     
