@@ -10,8 +10,6 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 ### [Objective-C 코딩 가이드라인 (Apple)](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/StyleGuide/General.md)
 
-<br>
-
 1. 문법
     - Method : [메서드](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Method.md)<br>
                <t> ㄴ Class Method : [클래스 메서드](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/Class%20Method.md)
