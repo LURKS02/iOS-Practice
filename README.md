@@ -77,6 +77,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
     - const & #define : [const와 #define](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/const%2B%23define.md)
     - IBOutlet weak reference : [IBOutlet과 weak 참조](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/IBOutlet%2Bweakref.md)
     - UI & Main Thread : [iOS의 UI 작업과 메인 스레드의 연관성](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/UI%2BThread.md)
+    - Init & viewDidLoad : [Init과 viewDidLoad의 초기화 관련](https://github.com/LURKS02/Objective-C-Practice/blob/main/Docs/Init%2BviewDidLoad.md)
  
 <br>
 
