@@ -82,7 +82,7 @@ class ViewModel: ObservableObject {
     }*/
     
     func fetchBeers() {
-        repo.domainModelBeersPublisher()
+        repo.fetchBeersPublisher()
             .sink(receiveValue: {
                 self.beers = $0
             })
