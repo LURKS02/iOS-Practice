@@ -4,6 +4,19 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 <br>
 
+## CS 지식
+
+<details>
+<summary>펼치기</summary>
+
+<br>
+
+- Process : [프로세스](https://github.com/LURKS02/iOS-Practice/tree/main/Docs/CS)
+  
+</details>
+
+<br>
+
 ## Swift 기초 문법
 
 <details>
