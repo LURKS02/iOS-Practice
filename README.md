@@ -55,6 +55,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
     - Memory Management : [메모리 관리 기법](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/MemoryManagement.md)
     - Core Data : [코어 데이터](https://github.com/LURKS02/objectiveCPractice/blob/main/Docs/CoreData.md)
     - KVC : [Key-Value Coding](https://github.com/LURKS02/Objective-C-Practice/blob/main/Docs/KVC.md)
+    - KVO : [Key_Value Observing](https://github.com/LURKS02/Objective-C-Practice/blob/main/Docs/KVO.md)
     
     <br>
 
