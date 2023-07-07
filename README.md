@@ -50,8 +50,6 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 ## Objective-C
 
-<br>
-
 ### [Objective-C 코딩 가이드라인 (Apple)](https://github.com/LURKS02/iOS-Practice/blob/main/Objective-C/Docs/StyleGuide/General.md)
 
 1. 문법
