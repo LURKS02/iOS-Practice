@@ -148,6 +148,12 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 1. 문법
     - Async & Await : [Async - Await을 이용한 비동기 처리](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/Async%20&%20Await.md)
+2. 개념
+3. 패턴
+4. 함수&키워드
+    - Enum : [Enum](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum.md)
+6. 클래스
+7. 기타
   
 
 <br>
