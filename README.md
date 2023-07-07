@@ -54,7 +54,6 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 1. 문법
     - Method : [메서드](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/Method.md)<br>
-    
                <t> ㄴ Class Method : [클래스 메서드](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/Class%20Method.md)
     - Categories : [카테고리](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/Categories.md)
     - Posing : [Posing](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/Posing.md)
