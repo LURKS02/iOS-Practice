@@ -58,6 +58,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
     - KVC : [Key-Value Coding](https://github.com/LURKS02/Objective-C-Practice/blob/main/Docs/KVC.md)
     - KVO : [Key-Value Observing](https://github.com/LURKS02/Objective-C-Practice/blob/main/Docs/KVO.md)
     - Method Dispatch : [Method Dispatch](https://github.com/LURKS02/Objective-C-Practice/blob/main/Docs/MethodDispatch.md)
+      API : [Application Programming Interface](https://github.com/LURKS02/Objective-C-Practice/blob/main/Docs/API.md)
     
     <br>
 
