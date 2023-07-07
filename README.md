@@ -152,9 +152,17 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 3. 패턴
 4. 함수&키워드
     - Enum : [Enum](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum.md)
-6. 클래스
-7. 기타
-  
+5. 클래스
+6. 기타
+
+<br>
+
+* Plus 개념
+
+<br>
+
+* 어플리케이션 관련
+    - Enum+Generic : [Enum과 Generic 활용](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum%2BGeneric.md)
 
 <br>
 
