@@ -11,7 +11,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 <br>
 
-- Process : [프로세스](https://github.com/LURKS02/iOS-Practice/tree/main/Docs/CS)
+- Process : [프로세스](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/Process.md)
   
 </details>
 
