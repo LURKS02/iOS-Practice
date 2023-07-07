@@ -10,6 +10,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 <summary>펼치기</summary>
 
 <br>
+
 1. 타입
     - Boolean : [bool 타입](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/MyPlayground.playground/Pages/bool.xcplaygroundpage/README.md)
     - Enum : [enum 타입](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/MyPlayground.playground/Pages/enum.xcplaygroundpage)
