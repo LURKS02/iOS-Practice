@@ -153,6 +153,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 3. 패턴
 4. 함수&키워드
     - Enum : [Enum](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum.md)
+    - @Escaping : [@Escaping](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/%40Escaping.md)
 5. 클래스
 6. 기타
 
