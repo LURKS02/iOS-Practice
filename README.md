@@ -175,6 +175,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 1. 문법
     - Binding : [Binding 구조체](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/SwiftUI/BindingStruct.md)
+    - Lazy V/H Grid : [Lazy V/H Grid](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/SwiftUI/LazyVHGrid.md)
 2. 개념
 3. 패턴
 4. 함수&키워드
