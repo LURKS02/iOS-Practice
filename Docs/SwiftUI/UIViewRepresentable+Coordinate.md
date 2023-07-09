@@ -4,7 +4,7 @@
 이떄 Coordinator 타입은 UIViewRepresentable 프로토콜을 채택하는 타입이 지정하는 Coordinator 타입을 가지게 된다.<br>
 하지만 UIViewRepresentable을 채택하는 타입이 Coordinator 타입을 명시적으로 지정하지 않았을 경우, UIViewRepresentable 프로토콜은 Coordinator 타입을 기본적으로 Void로 지정하게 된다.<br>
 따라서 다음과 같이 delegate를 설정하면 오류가 발생한다.<br>
-```swiftui
+```swift
 struct SearchBar: UIViewRepresentable {
     @Binding var text: String
     
@@ -23,7 +23,7 @@ struct SearchBar: UIViewRepresentable {
 따라서 다음과 같이 UIViewRepresentable을 채택하는 타입 내에서 Coordinator 타입을 정의해주어야 한다.<br>
 <br>
 
-```swiftui
+```swift
 struct SearchBar: UIViewRepresentable {
   @Binding var text: String
     
