@@ -186,4 +186,4 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 <br>
 
 * Plus 개념
-    - Coordinator : [UIViewRepresentable의 Coordinator 구현 문제](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/SwiftUI/UIViewRepresentable%2BCoordinate.md)
+    - Coordinator : [UIViewRepresentableContext의 Coordinator 구현 문제](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/SwiftUI/UIViewRepresentable%2BCoordinate.md)
