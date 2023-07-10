@@ -108,6 +108,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
     - static const : [전역상수](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/static%20const.md)
 5. 클래스
     - NSPersistentContainer : [NSPersistentContainer](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/NSPersistentContainer.md)
+    - NSOperation : [NSOperation](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/NSOperation.md)
 6. 기타
     - Memory Management : [메모리 관리 기법](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/MemoryManagement.md)
     - Core Data : [코어 데이터](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/CoreData.md)
