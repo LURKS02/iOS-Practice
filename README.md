@@ -160,6 +160,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
     - @Escaping : [@Escaping](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/%40Escaping.md)
 5. 클래스
 6. 기타
+    - GCD : [Grand Central Dispatch](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/GCD.md)
 
 <br>
 
