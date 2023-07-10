@@ -152,6 +152,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 2. 개념
     - Property : [Property](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Property.md)
     - Serial & Concurrent : [Serial & Concurrent](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Serial%2BConcurrent.md)
+    - Thread : [Main과 Global Thread](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Thread.md)
 3. 패턴
 4. 함수&키워드
     - Enum : [Enum](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum.md)
