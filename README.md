@@ -126,6 +126,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 <br>
     
 * 어플리케이션 관련
+    - Colletion View : [컬렉션 뷰](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/CollectionView.md)
     - Launch Screen : [런치 스크린](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/LaunchScreen.md)
     - Auto Layout : [오토 레이아웃](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/AutoLayout.md)
     - Data Source & Delegate : [DataSource 와 Delegate](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Objective-C/DataSource%26Delegate.md)
