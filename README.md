@@ -24,6 +24,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 - Message Queue : [메시지 큐](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/MessageQueue.md)
 - Docker : [도커](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/Docker.md)
 - Data Structure : [자료구조](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/DataStructure.md)
+- Dynamic Programming : [동적 프로그래밍](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/DP.md)
 - TDD : [Test-Driven Development](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/TDD.md)
 - DDD : [Domain-Driven Design](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/DDD.md)
 - MSA : [Microservice Architecture](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/MSA.md)
