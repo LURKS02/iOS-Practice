@@ -15,6 +15,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 - REST API : [RESTful API](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/REST_API.md)
 - Process : [프로세스](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/Process.md)
 - Thread : [쓰레드](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/Thread.md)
+- Memory : [메모리 구조](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/Memory.md)
   
 </details>
 
