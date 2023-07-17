@@ -26,6 +26,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 - Data Structure : [자료구조](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/DataStructure.md)
 - Dynamic Programming : [동적 프로그래밍](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/DP.md)
 - Recursive Algorithm : [재귀 알고리즘](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/RecursiveAlgorithm.md)
+- Huffman Coding : [허프만 코딩](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/HuffmanCoding.md)
 - TDD : [Test-Driven Development](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/TDD.md)
 - DDD : [Domain-Driven Design](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/DDD.md)
 - MSA : [Microservice Architecture](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/CS/MSA.md)
