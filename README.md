@@ -185,6 +185,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 6. 기타
     - GCD : [Grand Central Dispatch](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/GCD.md)
     - Device Test : [디바이스와 개발 환경에서 가능한 작업들](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/DeviceTest.md)
+    - Data Store : [데이터 저장소](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/DataStore.md)
 
 <br>
 
