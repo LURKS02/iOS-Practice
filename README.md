@@ -180,6 +180,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 4. 함수&키워드
     - Enum : [Enum](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum.md)
     - @Escaping : [@Escaping](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/%40Escaping.md)
+    - @main : [@main](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/%40Main.md)
     - Equatable : [Equatable](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Equatable.md)
 5. 클래스
     - UIViewController : [UIViewController](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/UIViewController.md)
