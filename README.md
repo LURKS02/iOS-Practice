@@ -195,6 +195,8 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 * Plus 개념
 
+    - SceneDelegate : [Scene Delegate와 상태 복원](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/SceneDelegate.md)
+      
 <br>
 
 * 어플리케이션 관련
