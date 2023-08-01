@@ -9,6 +9,10 @@ Apple에서 제공하는 데이터 관리 프레임워크<br>
 ## Core Data Stack
 Core Data의 핵심으로, 앱의 모델 layer를 관리하고 유지하는 역할을 한다.<br>
 
+<br>
+
+<img src="https://github.com/LURKS02/iOS-Practice/assets/63408930/f3f4553d-e5b8-4b13-a28a-592145318de6" width="800" height="400"/>
+
 ### NSManagedObjectModel
 Entity를 설명하는 데이터베이스 스키마<br>
 ManagedObject의 Structure를 정의한다.<br>
