@@ -92,6 +92,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
     - CGRect & CGSize & CGPoint : [CGRect / CGSize / CGPoint](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/CGRect%2BCGSize%2BCGPoint.md)
     - Frame & Bounds : [Frame & Bounds](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Frame%2BBounds.md)
     - Any : [범용 타입](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Any.md)
+    - Error Handling : [에러 핸들링](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/ErrorHandling.md)
 2. 개념
     - Property : [Property](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Property.md)
     - Serial & Concurrent : [Serial & Concurrent](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Serial%2BConcurrent.md)
