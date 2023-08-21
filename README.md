@@ -94,6 +94,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
     - Any : [범용 타입](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Any.md)
     - Error Handling : [에러 핸들링 - throw function](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/ErrorHandling.md)
     - Result : [에러 핸들링 - Result](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Result.md)
+    - Variadic Parameters : [가변 매개변수](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/VariadicParameters.md)
 2. 개념
     - Property : [Property](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Property.md)
     - Serial & Concurrent : [Serial & Concurrent](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Serial%2BConcurrent.md)
