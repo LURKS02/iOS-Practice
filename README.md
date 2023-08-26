@@ -129,6 +129,9 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 <br>
 
 * 어플리케이션 관련
+
+    - [**Application Life Cycle**](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/ApplicationLifeCycle.md)
+  
     - Enum+Generic : [Enum과 Generic 활용](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum%2BGeneric.md)
     - Background Masking : [보안 - 백그라운드 마스킹](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/Docs/BackgroundMasking.md)
     - Responder Chain : [Responder Chain](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/Docs/ResponderChain.md)
