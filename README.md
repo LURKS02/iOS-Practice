@@ -99,7 +99,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
     - Property : [Property](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Property.md)
     - Serial & Concurrent : [Serial & Concurrent](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Serial%2BConcurrent.md)
     - Thread : [Main과 Global Thread](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Thread.md)
-    - PT & PX : [iOS의 화면 표현 단위](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/Docs/PT.md)
+    - PT & PX : [iOS의 화면 표현 단위](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/PT.md)
 3. 패턴
 4. 함수&키워드
     - Enum : [Enum](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum.md)
@@ -124,7 +124,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
     - SceneDelegate : [Scene Delegate와 상태 복원](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/SceneDelegate.md)
     - App Transaction : [Scene의 상태 전환](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/AppTransition.md)
-    - then : [then 활용과 구현](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/Docs/then.md)
+    - then : [then 활용과 구현](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/then.md)
       
 <br>
 
@@ -134,9 +134,9 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
   
     - Enum+Generic : [Enum과 Generic 활용](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Enum%2BGeneric.md)
     - Background Masking : [보안 - 백그라운드 마스킹](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/BackgroundMasking.md)
-    - Responder Chain : [Responder Chain](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/Docs/ResponderChain.md)
+    - Responder Chain : [Responder Chain](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/ResponderChain.md)
     - Library : [외부 라이브러리 사용](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Library.md)
-    - Toast : [iOS에서 Toast 구현](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/Docs/Toast.md)
+    - Toast : [iOS에서 Toast 구현](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/Toast.md)
 
 <br>
 
@@ -144,7 +144,7 @@ iOS 기초 지식에 대하여 정리한 레포지토리입니다.
 
 <br>
 
-[RxSwift 정의](https://github.com/LURKS02/iOS-Practice/blob/main/Swift/Docs/RxSwift.md)
+[RxSwift 정의](https://github.com/LURKS02/iOS-Practice/blob/main/Docs/Swift/RxSwift.md)
 
 <br>
 
