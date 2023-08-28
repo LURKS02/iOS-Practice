@@ -23,6 +23,7 @@ class Toast {
         messageLabel.textAlignment = .center
         messageLabel.font = UIFont.systemFont(ofSize: 12)
         messageLabel.textColor = .white
+        messageLabel.numberOfLines = 0
         messageLabel.backgroundColor = UIColor(white: 0, alpha: 0.5)
         messageLabel.layer.cornerRadius = 10
         messageLabel.clipsToBounds = true
@@ -31,8 +32,11 @@ class Toast {
         messageLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview().offset(100)
-            make.height.equalTo(30)
-            make.width.equalTo(130)
+            
+            let estimatedWidth = messageLabel.intrinsicContentSize.width + 20
+            let estimatedHeight = messageLabel.intrinsicContentSize.height + 20
+            make.width.equalTo(estimatedWidth)
+            make.height.equalTo(estimatedHeight)
         }
         
         toastWindow?.makeKeyAndVisible()
